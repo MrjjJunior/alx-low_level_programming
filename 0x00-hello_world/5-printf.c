@@ -1,5 +1,3 @@
-#!/bin/bash
-#!/bin/bash
 #include<stdio.h>
 /**
  * main - Entry point of the program

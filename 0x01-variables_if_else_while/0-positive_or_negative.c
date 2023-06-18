@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * deteminees if number is positve or negative
- *  
- */
-
+/*deteminees if number is positve or negative*/
 /* betty style doc for function main goes there */
 int main(void)
 {

@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*main - deteminees if number is positve or negative*/
+/*
+ * main - deteminees if number is positve or negative
+ * Return: Always 0 (Sucess)*/
 /* betty style doc for function main goes there */
 int main(void)
 {

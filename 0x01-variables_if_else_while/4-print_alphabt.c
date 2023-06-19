@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Write a program that prints the alphabet in lowercase except q and e
+ * main - a program that prints the alphabet in lowercase except q and e
  *
- * Return : Always 0.
+ * Return: Always 0.
  */
 
 int main(void)

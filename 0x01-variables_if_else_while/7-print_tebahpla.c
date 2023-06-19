@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -print alphabets in reverse 
+ * main - print alphabets in reverse 
  * Return: Always 0.
  */
 
@@ -15,5 +15,5 @@ int main(void)
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }

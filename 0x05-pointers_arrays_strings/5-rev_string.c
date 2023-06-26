@@ -21,4 +21,4 @@ void rev_string(char *s)
 		s[i] = s[counter];
 		s[counter] = rev;
 	}
-}	
+}

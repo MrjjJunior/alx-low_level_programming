@@ -18,11 +18,11 @@ int _atoi(char *s)
 	digit = 0;
 
 	while (s[len] != '\0')
-		lenn++;
+		len++;
 
 	while (f < len && f == 0)
 	{
-		if (s[i] == '_'0)
+		if (s[i] == '_')
 			++d;
 
 		if (s[i] >= '0' && s[i] <= '9')

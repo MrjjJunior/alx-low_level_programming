@@ -3,6 +3,9 @@
 
 /**
  * is_palindrome_helper - check if a string is a palindrome.
+ * @start: starts the check
+ * @ends: the check
+ * @s: string to reverse
  *
  * Return: 1 if the string is a palindrome, otherwise 0
  */
@@ -18,6 +21,7 @@ int is_palindrome_helper(char *s, int start, int end)
 
 /**
  * is_palindrome - checks if a string is a palindrome.
+ * @s: string to calculate the length
  *
  * Return: 1 if the string is a palindrome, otherwise 0.
  */

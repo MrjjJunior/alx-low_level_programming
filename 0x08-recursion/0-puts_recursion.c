@@ -8,5 +8,6 @@
 
 void _puts_recursion(char *s)
 {
-	puts(s; '\n')
+	puts(s);
+	printf('\n');
 }

@@ -54,7 +54,8 @@ int main(int argc, char *argv[])
 	if (nchars == -1)
 		error_file(file_from, argv[1]);
 
-	if (close(file_from) == -1 || close(file_to) == -1) {
+	if (close(file_from) == -1 || close(file_to) == -1)
+	{
 		dprintf(STDERR_FILENO, "Error: Can't close file descriptor\n");
 		exit(100);
 	}

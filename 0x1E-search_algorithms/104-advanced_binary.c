@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "search_algos.h"
 
 int binary_search_recursion(int *array, int value,

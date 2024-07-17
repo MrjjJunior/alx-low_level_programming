@@ -9,19 +9,19 @@
  */
 void print_array(int *array, int size)
 {
-	int i;
+	int integer;
 
 	if (array == NULL || size == 0)
 		return;
 
 	printf("Searching in array: ");
 
-	for (i = 0; i < size; i++)
+	for (integer = 0; integer < size; integer++)
 	{
-		if (i == 0)
-			printf("%d", array[i]);
+		if (integer == 0)
+			printf("%d", array[integer]);
 		else
-			printf(", %d", array[i]);
+			printf(", %d", array[integer]);
 	}
 
 	printf("\n");
@@ -29,7 +29,7 @@ void print_array(int *array, int size)
 
 /**
  * binary_search - find value in sorted array using binary search method
- * @array: pointer to first element in array to be searched
+ * @array: pointer to first element in array
  * @size: size of the array (number of elements)
  * @value: value to be searched for
  *
